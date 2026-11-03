@@ -1,0 +1,9 @@
+# Core dependencies used by the five revised notebooks.
+# Install with: python -m pip install -r requirements.txt
+numpy
+pandas
+scikit-learn
+catboost
+matplotlib
+jupyter
+ipykernel

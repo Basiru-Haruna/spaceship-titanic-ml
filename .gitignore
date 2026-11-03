@@ -1,0 +1,35 @@
+# Competition data (download from Kaggle rather than commit)
+/train.csv
+/test.csv
+/sample_submission.csv
+
+# Original notebooks and local model-training outputs
+/original_notebooks_backup/
+/catboost_info/
+
+# Jupyter and Python cache
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments and local configuration
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Do NOT ignore /figures/ or /submissions/: portfolio figures
+# and the validated competition submission are intended outputs.
+
+# Ignore CatBoost training logs in any directory
+**/catboost_info/
